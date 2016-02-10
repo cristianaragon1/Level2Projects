@@ -1,0 +1,38 @@
+import org.teachingextensions.logo.Tortoise;
+
+public class obedientturtle {
+public static void main(String[] args) {
+	Tortoise.show();
+	Tortoise.setSpeed(7);
+	
+for (int i = 0; i < 360; i++) {
+	Tortoise.setSpeed(10);
+	Tortoise.move(1);
+	Tortoise.turn(1);
+}
+}
+
+
+private static void drawTriangle() {
+	Tortoise.turn(30);
+	Tortoise.move(70);
+	Tortoise.turn(120);
+	Tortoise.move(70);
+	Tortoise.turn(120);
+	Tortoise.move(70);
+}
+
+private static void drawSquare() {
+	Tortoise.move(50);
+	Tortoise.turn(90);
+	Tortoise.move(50);
+	Tortoise.turn(90);
+	Tortoise.move(50);
+	Tortoise.turn(90);
+	Tortoise.move(50);
+	
+}
+
+}
+
+
